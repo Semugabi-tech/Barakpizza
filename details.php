@@ -14,7 +14,7 @@ if (mysqli_query($conn, $sql)) {
 
 	header('Location: index.php');
 }  {
-  
+  //hello worldgi
   //  failure
 	echo 'query error: ' . mysqli_error($conn);
 }
