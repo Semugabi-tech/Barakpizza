@@ -8,6 +8,7 @@ $id_to_delete = mysqli_real_escape_string($conn, $_POST['id_to_delete']);
 
 $sql = "DELETE FROM pizzas WHERE id = $id_to_delete";
 
+
 if (mysqli_query($conn, $sql)) {
 	// success
 
